@@ -1,0 +1,183 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+h1{ 
+    font-family:"kanit" ;
+    font-size: 5.5rem;
+    line-height: 1.2;
+    color: white;
+}
+
+h2{
+    font-family: "kanit";
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+h3{
+    font-family: "kanit";
+    font-size: 2rem;
+}
+
+p{
+    color: grey;
+    font-family: "Montserrat";
+}
+
+/*Navigation bar*/
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    
+}
+
+.navbar{
+    padding:0 0 5rem;
+}
+
+.nav-items{
+    padding:0 50px;
+
+}
+
+.nav-link{
+    font-size: medium;
+    font-weight: bold;
+}
+
+/*Download buttons*/
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+/*Title image*/
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/*Features section*/
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align:center;
+    padding: 5%;
+}
+
+.icons{
+
+    color:rgb(255, 93, 120);
+    padding: 10% 0;
+}
+
+.icons:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials section*/
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 5px 40px 50px;
+    
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding:100px;
+    text-align: center;
+
+}
+
+.pricing-column{
+    padding:3% 2%;
+    text-align: center;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform: rotate(0);
+        position: static;
+    }
+}
+
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 2% 35%;
+    color: #fff;
+    
+}
+
+.cta-button{
+    margin:5% 3% 5% 0;
+    
+}
+
+/* Footer section */
+
+#footer{
+    text-align: center;
+    padding: 5% 3% 5% 0;
+
+}
+.footer-icons{
+    
+    width: 2%;
+}
+.footer-p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.footer-icons:hover{
+    color: black;
+}
+
+.footer-p:hover{
+    color: black;
+}
